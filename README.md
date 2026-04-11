@@ -1,41 +1,24 @@
-# Online Quiz System
-
-Backend-intensive quiz application built using:
-
-- Node.js
-- Express.js
-- MySQL
+# Online Quiz Backend (MVP)
 
 ## Features
-- User registration
-- Quiz creation (Admin)
-- Questions & options storage
-- Score calculation
-- REST APIs
+- User login (JWT)
+- Create quiz
+- Add questions with options
+- Get quiz with questions
 
-## How to Run
+## Tech
+- Node.js
+- Express
+- MySQL
 
-1. Install dependencies:
+## API Endpoints
 
-npm install
+POST /api/users/login  
+POST /api/quiz/create  
+POST /api/quiz/add-question  
+GET /api/quiz/:quizId  
 
-
-2. Setup .env file:
-
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=quiz_app
-PORT=5000
-
-
-3. Start server:
-
-npm run dev
-
-
----
-
-## API Base URL
-
-http://localhost:5000
+## How to run
+1. npm install
+2. setup .env
+3. node server.js
