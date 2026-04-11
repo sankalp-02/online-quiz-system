@@ -5,7 +5,7 @@ require("dotenv").config();
 const db = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
 const quizRoutes = require("./routes/quizRoutes");
-
+// const quizRoutes = require('./routes/quizRoutes');
 const app = express();
 
 // Middleware
