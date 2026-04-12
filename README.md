@@ -26,29 +26,7 @@ This project demonstrates REST API design, relational database usage, and backen
 
 ---
 
-## 📂 Project Structure
 
-```
-online-quiz-system/
-│
-├── config/
-│   └── db.js
-│
-├── controllers/
-│   ├── quizController.js
-│   └── userController.js
-│
-├── routes/
-│   ├── quizRoutes.js
-│   └── userRoutes.js
-│
-├── middleware/
-│   └── auth.js
-│
-├── .env
-├── server.js
-├── package.json
-```
 
 ---
 
@@ -71,32 +49,19 @@ npm install
 
 ---
 
-### 3. Configure environment variables
 
-Create a `.env` file:
 
-```
-PORT=5000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=quiz_app
-JWT_SECRET=your_secret
-```
+### 3. Run the server
 
----
 
-### 4. Run the server
-
-```bash
 node server.js
-```
+
 
 Server runs on:
 
-```
+
 http://localhost:5000
-```
+
 
 ---
 
@@ -224,9 +189,5 @@ Response:
 
 ---
 
-## 📎 Submission
-
-GitHub Repo:
-https://github.com/sankalp-02/online-quiz-system
 
 ---
