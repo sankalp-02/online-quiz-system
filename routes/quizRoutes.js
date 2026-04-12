@@ -17,4 +17,7 @@ router.get('/test', (req, res) => {
   res.send("Quiz route working");
 });
 
+//submit route
+router.post('/submit', quizController.submitQuiz);
+
 module.exports = router;
